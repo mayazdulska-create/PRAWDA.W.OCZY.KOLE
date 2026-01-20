@@ -3,78 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>PRAWDA W OCZY KOLE</title>
-    <style>
-        /* To ustawienie blokuje czarny tryb na telefonach */
-        :root { color-scheme: light; } 
+    <meta property="og:title" content="PRAWDA W OCZY KOLE">
+    <meta property="og:description" content="JEDYNA STRONA Z FAKTAMI">
 
+    <style>
+        :root { color-scheme: light; } 
         body {
             background-color: white !important;
             color: black !important;
             font-family: 'Arial Black', sans-serif;
             text-align: center;
-            padding: 30px 10px;
+            padding: 20px 10px;
             margin: 0;
         }
-        h1 {
-            color: #ff0000;
-            font-size: 2.8rem;
-            text-transform: uppercase;
-        }
-        .tekst-glowny {
-            font-size: 1.5rem;
-            line-height: 1.6;
-            margin: 20px 0;
-        }
-        .highlight {
-            color: #d32f2f;
-            background: #fff3f3;
-            padding: 5px;
-            display: block;
+
+        /* EFEKT MIGANIA DLA KRUKA I WŁOCHA */
+        .miganie {
+            font-size: 1.6rem;
+            font-weight: bold;
+            animation: blink 0.4s infinite;
             margin: 10px 0;
         }
-        .rządzenie {
-            font-size: 2rem;
-            color: #4a148c;
-            border-top: 3px solid #000;
-            border-bottom: 3px solid #000;
-            padding: 15px 0;
-            margin: 20px 0;
+        @keyframes blink {
+            0% { color: red; }
+            50% { color: black; }
+            100% { color: red; }
         }
-        .fakt {
-            background: #000;
-            color: #fff !important;
-            padding: 10px;
-            font-style: italic;
-        }
+
+        h1 { color: #ff0000; font-size: 2.5rem; text-transform: uppercase; margin-bottom: 5px; }
+        .sekcja { margin: 25px 0; border-bottom: 2px solid #eee; padding-bottom: 20px; }
+        .skurwiel { color: #666; font-size: 1.2rem; text-transform: lowercase; }
+        .fakt-dnia { background: yellow; padding: 20px; border: 3px solid #000; font-weight: bold; display: block; margin: 15px auto; width: 90%; font-size: 1.4rem; }
+        .rządzenie { font-size: 2rem; color: #4a148c; padding: 25px 0; background: #fdfdfd; margin: 25px 0; border: 4px double black; }
+        .prawda-dnia { font-size: 1.4rem; line-height: 1.6; margin: 20px 0; }
+        .stopka { color: red; font-weight: bold; margin-top: 40px; font-size: 1.3rem; }
     </style>
 </head>
 <body>
 
     <h1>💖 jebac kurwy</h1>
-    
-    <div class="tekst-glowny">
-        <span class="highlight">KRUK TO PAŁA</span>
-        <span class="highlight">WŁOCHU TO FAJA</span>
-        <p>KAZDY SOBIE PODCIERA MORDE.</p>
+
+    <div class="sekcja">
+        <div class="miganie">kruk (PW) ssie pale MW 🏗️</div>
+        <div class="miganie">WŁOCHU TO FAJA</div>
+    </div>
+
+    <div class="sekcja">
+        <p class="skurwiel">skladak to skurwiel ( nawet nie zasluzyl na pisanie z duzej literki)</p>
+    </div>
+
+    <div class="sekcja">
+        <div class="fakt-dnia">FAKT DNIA: MAJA ZOSTALA WYCHUJANA</div>
+        
+        <div class="prawda-dnia">
+            PRAWDA DNIA: JULIA LUBI SERIAL TELEFONISTKI I MA CIPKE
+            <br><br>
+            <strong>KAZDY SOBIE PODCIERA MORDE.</strong>
+        </div>
     </div>
 
     <div class="rządzenie">
         👑 MAJA I JULKA RZĄDZĄ ŚWIATEM 👑
     </div>
 
-    <p style="font-size: 1.3rem; font-weight: bold; color: red;">
-        PRAWDA W OCZY KOLE FRAJERZY...
-    </p>
-
-    <div class="fakt">
+    <div class="stopka">
+        PRAWDA W OCZY KOLE FRAJERZY...<br>
         JEDYNA STRONA Z FAKTAMI
     </div>
 
-    <marquee scrollamount="12" style="margin-top: 30px; font-size: 20px;">
-        🔥🔥🔥 PRAWDA W OCZY KOLE 🔥🔥🔥 PRAWDA W OCZY KOLE 🔥🔥🔥
+    <marquee scrollamount="18" style="margin-top: 50px; font-size: 28px; color: yellow; background: red; padding: 15px 0; font-weight: bold;">
+        ⚠️ PRAWDA W OCZY KOLE ⚠️ PRAWDA W OCZY KOLE ⚠️ PRAWDA W OCZY KOLE ⚠️
     </marquee>
 
 </body>
 </html>
-
